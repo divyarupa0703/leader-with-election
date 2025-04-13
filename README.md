@@ -35,10 +35,10 @@ This project simulates a **leader election process** in a distributed system usi
 2. Compile the code:
 
 ```bash
-gcc -o election_with_heartbeat election_with_heartbeat.c -lpthread
+gcc -o election election.c -lpthread
 ```
 3. Run the program:
 
 ```bash
-./election_with_heartbeat
+./election
 ```
