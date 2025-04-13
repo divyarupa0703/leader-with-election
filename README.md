@@ -31,5 +31,14 @@ This project simulates a **leader election process** in a distributed system usi
 1. Clone the repository:
    ```bash
    git clone https://github.com/divyarupa0703/leader-with-election.git
-   cd election-with-heartbeat
     ```
+2. Compile the code:
+
+```bash
+gcc -o election_with_heartbeat election_with_heartbeat.c -lpthread
+```
+3. Run the program:
+
+```bash
+./election_with_heartbeat
+```
